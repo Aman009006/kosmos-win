@@ -1,0 +1,34 @@
+
+.infinty-body__nav-wrapper{
+    position: fixed;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    top: 0;
+    left: 54%;
+    transform: translateX(-50%);
+}
+
+.infinty-body__nav-list{
+    display: flex;
+    padding: 20px 0;
+    list-style: none;
+    gap: 30px;
+}
+
+.infinty-body__nav-list img{
+    height: 15px;
+    width: 15px;
+    opacity: .7;
+    z-index: -1;
+}
+
+.navblocker{
+    top: 0;
+    position: absolute;
+    background-color: #000;
+    height: 99%;
+    width: 2000px;
+    margin-left: 200px;
+    z-index: 3;
+}

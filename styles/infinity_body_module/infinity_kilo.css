@@ -1,0 +1,15 @@
+.infinty-body__kilo-num{
+    position: fixed;
+    display: inline;
+    height: 20px;
+    text-align: right;
+    top: 85%;
+    right: 47%;
+    margin-left: -60px;
+}
+
+.infinty-body__kilo-block{
+    position: relative;
+    left: var(--start-kil);
+    z-index: 2;
+}

@@ -1,0 +1,71 @@
+.infinty-body__mercury-block{
+    position: relative;
+    left: var(--mercury-pos);
+}
+
+.infinty-body__venus-block{
+    position: relative;
+    left: var(--venus-pos);
+}
+
+.infinty-body__earth-block{
+    position: relative;
+    left: var(--earth-pos);
+}
+
+.infinty-body__mars-block{
+    position: relative;
+    left: var(--mars-pos);
+}
+
+.planets-img{
+    position: relative;
+    width: 8px;
+}
+
+.infinty-body__mercury-block h1{
+    color: var(--mercury-color);
+    font-weight: 400;
+}
+
+.infinty-body__venus-block h1{
+    color: var(--venus-color);
+    font-weight: 400;
+}
+
+.infinty-body__earth-block h1{
+    color: var(--earth-color);
+    font-weight: 400;
+}
+
+.infinty-body__earth-block h1{
+    color: var(--mars-color);
+    font-weight: 400;
+}
+
+.planets-img::before{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    content: '' ;
+    width: 3px;
+    height: 3px;
+}
+
+.infinty-body__mercury-block .planets-img::before{
+    background: var(--mercury-color);
+}
+
+.infinty-body__venus-block .planets-img::before{
+    background: var(--venus-color);
+}
+
+.infinty-body__earth-block .planets-img::before{
+    background: var(--earth-color);
+}
+
+.infinty-body__mars-block .planets-img::before{
+    background: var(--mars-color);
+}

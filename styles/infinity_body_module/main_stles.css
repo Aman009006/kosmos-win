@@ -1,0 +1,49 @@
+:root{
+    --sun-pos: 1500px;
+    --start-kil: 1600px;
+    --mercury-pos: 17385px;
+    --venus-pos: 31859px;
+    --earth-pos: 43773px;
+    --mars-pos: 66341px;
+    --mercury-color: #fc0;
+    --venus-color: #86ffca;
+    --earth-color: #01fdfa;
+    --mars-color: #ff7443;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+}
+
+.infinty-section{
+    position: relative;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.infinty-section__body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 500px;
+}
+
+.infinty-section-padding{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background: red;
+    left: 400000px;
+}

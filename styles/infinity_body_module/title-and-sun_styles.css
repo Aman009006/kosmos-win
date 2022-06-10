@@ -1,0 +1,39 @@
+.infinty-body__main-title {
+    float: left;
+    position: relative;
+    height: 80vh;
+    width: 100vh;
+    z-index: 4;
+}
+
+.infinty-body__main-title > img{
+    position: relative;
+    height: 100%;
+    top: 10%;
+    margin-left: 10%;
+}
+
+#sun {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    fill: #fde301;
+    z-index: 1;
+}
+
+.infinty-body__sun-block {
+    position: relative;
+    left: var(--sun-pos);
+    z-index: 1;
+}
+
+.infinty-body__sun-block::before{
+    position: absolute;
+    content: 'Sun';
+    color: #232323;
+    z-index: 1000;
+    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

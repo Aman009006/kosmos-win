@@ -1,13 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>hello</div>
-    <a href=""></a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILON.USA</title>
+    <link rel="stylesheet" href="./styles/firstBlock.css" />
+    <link rel="stylesheet" href="./styles/secondBlock.css" />
+    <link rel="stylesheet" href="./styles/threeBlock.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="firstBlock">
+      <video autoplay muted loop id="main__page-video">
+        <source src="./img/firstBlock/Apocalyptic.mp4" type="video/mp4" />
+      </video>
+      <p id="hola">ILON</p>
+    </section>
+
+    <section id="secondBlock">
+      <div class="container">
+        <div class="second__content">
+          <h2 class="second__h2">
+            “Taking more and more passengers out into space will enable them,
+            and us, to look both outward and back but with a fresh perspective
+            in both directions.”
+          </h2>
+
+          <div class="df">
+            <div class="blocks">
+              <div class="block__second">
+                <img
+                  class="second__img"
+                  src="./img/firstBlock/quote-image-sirisha.jpg"
+                  alt=""
+                />
+                <div class="secoms__info">
+                  <p class="second__name">Sirisha Bandla</p>
+                  <p class="second__vacancy">Virgin Galactic Astronaut 004</p>
+                  <p class="second__vacancy">
+                    VP of Government Affairs & Research Ops
+                  </p>
+                  <div class="voice">
+                    <div style="width: 50px; height: 50px"></div>
+                    <div class="audio-player">
+                      <div class="timeline">
+                        <div class="progress"></div>
+                      </div>
+                      <div class="controls">
+                        <div class="play-container">
+                          <div class="toggle-play play"></div>
+                        </div>
+                        <div class="time">
+                          <div class="current">0:00</div>
+                          <div class="divider">/</div>
+                          <div class="length"></div>
+                        </div>
+                        <div class="name">First Pilot</div>
+                        <!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+                        <div class="volume-container">
+                          <div class="volume-button">
+                            <div class="volume icono-volumeMedium"></div>
+                          </div>
+
+                          <div class="volume-slider">
+                            <div class="volume-percentage"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comtemt__second__title">
+              <h3 class="second__tilte_me">THE SPACELINE<br />FOR EARTH</h3>
+              <p class="second__descr">We go up to look down.</p>
+              <p class="second__descr">
+                When we witness the majesty and fragility of Earth from space,
+                something inside us shifts. We believe this transformation will
+                bring countless benefits to life on our beautiful planet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourstory">
+      <div id="ourstory__cont">
+        <div><h1 class="the__best">Why we are the best ?</h1></div>
+        <div id="carousel-wrapper">
+          <div id="menu">
+            <div id="current-option">
+              <span
+                id="current-option-text1"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+              <span
+                id="current-option-text2"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+          </div>
+          <div id="image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mars__ticets">
+      <div class="dd">
+            <div class="tickets">
+                <img src="./img/firstBlock/bilet-na-mars-1.jpg" alt="" class="ticket">
+             <div>   <img src="./img/firstBlock/1.webp" alt="" class="ticket"></div>
+            </div>
+            <div class="form">
+                <h3 class="volonter">
+                    Become a volunteer
+                </h3>
+                <p class="input__p">Your name</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your age</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your sex</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your number</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your citizenship</p>
+                <input class="input__in" type="text">
+                <button class="input__sub">SEND</button>
+            </div>
+      </div>
+    </section>
+
+    
+    <script src="./js/firstBlock.js"></script>
+    <script src="./js/threeBlock.js"></script>
+  </body>
 </html>

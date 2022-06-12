@@ -4,11 +4,31 @@
     --mercury-pos: 17385px;
     --venus-pos: 31859px;
     --earth-pos: 43773px;
+    --moon-pos: 43700px;
     --mars-pos: 66341px;
+    --jupi-pos: 224817px;
+    --lola-pos: 224740px;
+    --euro-pos: 224900px;
+    --gany-pos: 225000px;
+    --call-pos: 225180px;
+    --satu-pos: 413244px;
+    --tita-pos: 413350px;
+    --uran-pos: 828877px;
+    --nept-pos: 1296925px;
+    --plut-pos: 1700885px;
+    --infi-pr: 1702500px;
     --mercury-color: #fc0;
     --venus-color: #86ffca;
     --earth-color: #01fdfa;
+    --moon-color: #fff;
     --mars-color: #ff7443;
+    --jupi-color: #ffa043;
+    --satu-color: #f9d293;
+    --uran-color: #18e6ff;
+    --nept-color: #45b9ff;
+    --plut-color: #d9f5ff;
+    --mini-planet-color: #f0e8e0;
+    --planet-title: 51px;
 }
 
 *{
@@ -27,23 +47,68 @@
     font-weight: 400;
     font-style: normal;
     height: 100vh;
-    overflow-x:scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
 
+.infinty-section h1{
+    text-transform: uppercase;
+}
+
+.infinty-section__body::-webkit-scrollbar {
+    height: 12px;
+}
+
+.infinty-section__body::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, #000, #111, aqua, #000, #222);
+}
+
+.infinty-section__body::-webkit-scrollbar-thumb{
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(45deg, aqua, red );
+    background-size: 150% 120%;
+    animation: bgAnimate 3s linear infinite;
+}
+
 .infinty-section__body{
+    overflow-y: hidden;
     position: relative;
     display: flex;
     align-items: center;
     height: 100%;
     padding-right: 500px;
+    scroll-behavior: smooth;
 }
 
 .infinty-section-padding{
     position: relative;
     width: 1000px;
     height: 100px;
-    background: red;
-    left: 400000px;
+    text-align: center;
+    padding-right: 100px;
+    color: aqua;
+    left: var(--infi-pr);
+}
+
+.infinty-section-padding > h1{
+    color: inherit;
+    letter-spacing: 1.5px;
+    font-size: 60px;
+}
+
+@keyframes bgAnimate {
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 50% 50%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }

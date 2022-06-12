@@ -3,7 +3,7 @@
     position: relative;
     height: 80vh;
     width: 100vh;
-    z-index: 4;
+    z-index: 3;
 }
 
 .infinty-body__main-title > img{
@@ -29,10 +29,11 @@
 
 .infinty-body__sun-block::before{
     position: absolute;
-    content: 'Sun';
+    content: 'SUN';
     color: #232323;
     z-index: 1000;
     font-size: 80px;
+    font-weight: 400;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);

@@ -1,21 +1,68 @@
-.infinty-body__mercury-block{
+.block-planets{
     position: relative;
+}
+
+.block-planets h1{
+    position: relative;
+    font-weight: 400;
+    font-size: var(--planet-title);
+}
+
+.infinty-body__mercury-block{
     left: var(--mercury-pos);
 }
 
 .infinty-body__venus-block{
-    position: relative;
     left: var(--venus-pos);
 }
 
 .infinty-body__earth-block{
-    position: relative;
     left: var(--earth-pos);
 }
 
+.infinty-body__moon-block{
+    left: var(--moon-pos);
+    margin-top: -270px;
+}
+
 .infinty-body__mars-block{
-    position: relative;
     left: var(--mars-pos);
+}
+
+.infinty-body__jupi-block{
+    left: var(--jupi-pos);
+}
+
+.infinty-body__iolabel-block{
+    left: var(--lola-pos);
+}
+
+.infinty-body__europa-block{
+    left: var(--euro-pos);
+}
+
+.infinty-body__ganymede-block{
+    left: var(--gany-pos);
+}
+
+.infinty-body__callisto-block{
+    left: var(--call-pos);
+}
+
+.infinty-body__titan-block{
+    left: var(--tita-pos);
+}
+
+.infinty-body__uran-block{
+    left: var(--uran-pos);
+}
+
+.infinty-body__nept-block{
+    left: var(--nept-pos);
+}
+
+.infinty-body__plut-block{
+    left: var(--plut-pos);
 }
 
 .planets-img{
@@ -25,27 +72,48 @@
 
 .infinty-body__mercury-block h1{
     color: var(--mercury-color);
-    font-weight: 400;
 }
 
 .infinty-body__venus-block h1{
     color: var(--venus-color);
-    font-weight: 400;
 }
 
 .infinty-body__earth-block h1{
     color: var(--earth-color);
-    font-weight: 400;
 }
 
-.infinty-body__earth-block h1{
+.infinty-body__moon-block h1{
+    color: var(--moon-color);
+    font-size: calc(var(--planet-title) - 17px);
+}
+
+.infinty-body__mars-block h1{
     color: var(--mars-color);
-    font-weight: 400;
+}
+
+.infinty-body__jupi-block h1{
+    color: var(--jupi-color);
+}
+
+.infinty-body__satu-block h1{
+    color: var(--satu-color);
+}
+
+.infinty-body__uran-block h1{
+    color: var(--uran-color);
+}
+
+.infinty-body__nept-block h1{
+    color: var(--nept-color);
+}
+
+.infinty-body__plut-block h1{
+    color: var(--plut-color);
 }
 
 .planets-img::before{
     position: absolute;
-    top: -10px;
+    top: -7px;
     left: 50%;
     border-radius: 50%;
     transform: translateX(-50%);
@@ -56,16 +124,90 @@
 
 .infinty-body__mercury-block .planets-img::before{
     background: var(--mercury-color);
+    width: 1px;
+    height: 1px;
 }
 
 .infinty-body__venus-block .planets-img::before{
     background: var(--venus-color);
+    width: 4px;
+    height: 4px;
 }
 
 .infinty-body__earth-block .planets-img::before{
     background: var(--earth-color);
 }
 
+.moon-img::before{
+    background-color: var(--moon-color);
+    width: 1.2px;
+    height: 1.2px;
+    top: auto;
+    bottom: 5px;
+}
+
 .infinty-body__mars-block .planets-img::before{
     background: var(--mars-color);
+    width: 2px;
+    height: 2px;
+}
+
+.infinty-body__jupi-block .planets-img::before{
+    background: var(--jupi-color);
+    width: 40px;
+    height: 40px;
+    top: -47px;
+}
+
+.mini-planets span{
+    font-size: 8px;
+    color: var(--mini-planet-color);
+}
+
+.mini-planets{
+    margin-top: -200px;
+}
+
+.mini-planets::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 1px;
+    background: var(--moon-color);
+}
+
+.infinty-body__ganymede-block::before{
+    width: 2px;
+    height: 2px;
+}
+
+.infinty-body__satu-block{
+    left: var(--satu-pos);
+}
+
+.infinty-body__satu-block .planets-img::before{
+    background: url('https://joshworth.com/dev/pixelspace/img/saturn.svg');
+    width: 65px;
+    height: 34px;
+    top: -40px;
+}
+
+.infinty-body__uran-block .planets-img::before{
+    background: var(--uran-color);
+    width: 14px;
+    height: 14px;
+    top: -14px;
+}
+
+.infinty-body__nept-block .planets-img::before{
+    background: var(--nept-color);
+    width: 14px;
+    height: 14px;
+    top: -14px;
+}
+
+.infinty-body__plut-block .planets-img::before{
+    background: var(--plut-color);
+    width: 1px;
+    height: 1px;
 }

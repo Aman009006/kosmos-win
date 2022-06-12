@@ -2,18 +2,31 @@
 .infinty-body__nav-wrapper{
     position: fixed;
     display: flex;
-    width: 500px;
+    width: 100%;
     height: 100px;
     top: 0;
-    left: 54%;
-    transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    z-index: 2;
+    transition: .3s;
 }
 
 .infinty-body__nav-list{
     display: flex;
-    padding: 20px 0;
     list-style: none;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+    background: #000;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px #000;
+}
+
+.infinty-body__nav-item{
+    height: 15px;
+    cursor: pointer;
 }
 
 .infinty-body__nav-list img{

@@ -3,7 +3,7 @@
     display: inline;
     height: 20px;
     text-align: right;
-    top: 85%;
+    top: 90%;
     right: 47%;
     margin-left: -60px;
 }
@@ -12,4 +12,9 @@
     position: relative;
     left: var(--start-kil);
     z-index: 2;
+}
+
+.infinty-body__kilo-num > span{
+    font-size: 14px;
+    letter-spacing: 1px;
 }

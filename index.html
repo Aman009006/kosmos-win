@@ -1,13 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>hello</div>
-    <a href=""></a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILON.USA</title>
+    <link rel="stylesheet" href="./styles/firstBlock.css" />
+    <link rel="stylesheet" href="./styles/secondBlock.css" />
+    <link rel="stylesheet" href="./styles/threeBlock.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/infinity_body_main.css">
+    <script defer type="module" src="./js/infinity_body_scripts/infinity_module_scripts/infinity_main_scripts.js"></script>
+  </head>
+  <body>
+    <section id="firstBlock">
+      <video autoplay muted loop id="main__page-video">
+        <source src="./img/firstBlock/Apocalyptic.mp4" type="video/mp4" />
+      </video>
+      <p id="hola">ILON</p>
+    </section>
+
+    <section id="secondBlock">
+      <div class="container">
+        <div class="second__content">
+          <h2 class="second__h2">
+            “Taking more and more passengers out into space will enable them,
+            and us, to look both outward and back but with a fresh perspective
+            in both directions.”
+          </h2>
+
+          <div class="df">
+            <div class="blocks">
+              <div class="block__second">
+                <img
+                  class="second__img"
+                  src="./img/firstBlock/quote-image-sirisha.jpg"
+                  alt=""
+                />
+                <div class="secoms__info">
+                  <p class="second__name">Sirisha Bandla</p>
+                  <p class="second__vacancy">Virgin Galactic Astronaut 004</p>
+                  <p class="second__vacancy">
+                    VP of Government Affairs & Research Ops
+                  </p>
+                  <div class="voice">
+                    <div style="width: 50px; height: 50px"></div>
+                    <div class="audio-player">
+                      <div class="timeline">
+                        <div class="progress"></div>
+                      </div>
+                      <div class="controls">
+                        <div class="play-container">
+                          <div class="toggle-play play"></div>
+                        </div>
+                        <div class="time">
+                          <div class="current">0:00</div>
+                          <div class="divider">/</div>
+                          <div class="length"></div>
+                        </div>
+                        <div class="name">First Pilot</div>
+                        <!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+                        <div class="volume-container">
+                          <div class="volume-button">
+                            <div class="volume icono-volumeMedium"></div>
+                          </div>
+
+                          <div class="volume-slider">
+                            <div class="volume-percentage"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comtemt__second__title">
+              <h3 class="second__tilte_me">THE SPACELINE<br />FOR EARTH</h3>
+              <p class="second__descr">We go up to look down.</p>
+              <p class="second__descr">
+                When we witness the majesty and fragility of Earth from space,
+                something inside us shifts. We believe this transformation will
+                bring countless benefits to life on our beautiful planet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourstory">
+      <div id="ourstory__cont">
+        <div><h1 class="the__best">Why we are the best ?</h1></div>
+        <div id="carousel-wrapper">
+          <div id="menu">
+            <div id="current-option">
+              <span
+                id="current-option-text1"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+              <span
+                id="current-option-text2"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+          </div>
+          <div id="image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mars__ticets">
+      <div class="dd">
+            <div class="tickets">
+                <img src="./img/firstBlock/bilet-na-mars-1.jpg" alt="" class="ticket">
+             <div>   <img src="./img/firstBlock/1.webp" alt="" class="ticket"></div>
+            </div>
+            <div class="form">
+                <h3 class="volonter">
+                    Become a volunteer
+                </h3>
+                <p class="input__p">Your name</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your age</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your sex</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your number</p>
+                <input class="input__in" type="text">
+                <p class="input__p">Your citizenship</p>
+                <input class="input__in" type="text">
+                <button class="input__sub">SEND</button>
+            </div>
+      </div>
+    </section>
+
+    <div class="infinty-section">
+      <div class="infinty-section__body">
+          <div class="navblocker"></div>
+          <div class="infinty-body__nav-wrapper">
+              <ul class="infinty-body__nav-list">
+                  <li class="infinty-body__nav-item prev">
+                      <img class="prev" src="https://joshworth.com/dev/pixelspace/img/jumpprev.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item sun">
+                      <img class="sun" src="https://joshworth.com/dev/pixelspace/img/sun_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item merc">
+                      <img class="merc" src="https://joshworth.com/dev/pixelspace/img/mercury_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item ven">
+                      <img class="ven" src="https://joshworth.com/dev/pixelspace/img/venus_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item earth">
+                      <img class="earth" src="https://joshworth.com/dev/pixelspace/img/earth_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item mars">
+                      <img class="mars" src="https://joshworth.com/dev/pixelspace/img/mars_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item jupi">
+                      <img class="jupi" src="https://joshworth.com/dev/pixelspace/img/jupiter_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item satu">
+                      <img class="satu" src="https://joshworth.com/dev/pixelspace/img/saturn_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item uran">
+                      <img class="uran" src="https://joshworth.com/dev/pixelspace/img/uranus_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item nept">
+                      <img class="nept" src="https://joshworth.com/dev/pixelspace/img/neptune_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item plut">
+                      <img class="plut" src="https://joshworth.com/dev/pixelspace/img/pluto_icon.svg" alt="">
+                  </li>
+                  <li class="infinty-body__nav-item next">
+                      <img class="next" src="https://joshworth.com/dev/pixelspace/img/jumpnext.svg" alt="">
+                  </li>
+              </ul>
+          </div>
+          <div class="infinty-body__main-title">
+              <img src="./img/infinity_body_main/infinity_main_title.svg" alt="Title">
+          </div>
+          <div class="infinty-body__kilo-block">
+              <div class="infinty-body__kilo-num">
+                  <span class="infinty-body__num-km">000000000</span> <span>km</span>
+              </div>
+              <div class="infinty-body__kilo-desc">
+                  <img src="https://joshworth.com/dev/pixelspace/img/scale-en.svg" alt="">
+              </div>
+              <div class="infinty-body__kilo-path">
+
+              </div>
+          </div>
+          <div class="infinty-body__sun-block block-planets" data-planet="sun">
+              <svg version="1.1" id="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                  <circle cx="5" cy="5" r="5"></circle>
+              </svg>
+          </div>
+          <div class="infinty-body__mercury-block  block-planets" data-planet="merc">
+              <div class="mercury-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="mercury-block__name">MERCURY</h1>
+          </div>
+
+          <div class="infinty-body__venus-block  block-planets" data-planet="ven">
+              <div class="venus-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="venus-block__name">VENUS</h1>
+          </div>
+
+          <div class="infinty-body__earth-block  block-planets" data-planet="earth">
+              <div class="earth-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="earth-block__name">EARTH</h1>
+          </div>
+
+          <div class="infinty-body__moon-block block-planets">
+            <h1>MOON</h1>
+            <div class="moon-img planets-img">
+              <img src="https://joshworth.com/dev/pixelspace/img/arrow2.svg" alt="">
+            </div>
+          </div>
+
+          <div class="infinty-body__mars-block  block-planets" data-planet="mars">
+              <div class="mars-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="mars-block__name">MARS</h1>
+          </div>
+
+          <div class="infinty-body__jupi-block block-planets" data-planet="jupi">
+              <div class="jupi-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="jupi-block__name">JUPITER</h1>
+          </div>
+
+          <div class="infinty-body__iolabel-block block-planets mini-planets">
+            <span>IO</span>
+          </div>
+
+          <div class="infinty-body__europa-block block-planets mini-planets">
+            <span>EUROPA</span>
+          </div>
+
+          <div class="infinty-body__ganymede-block block-planets mini-planets">
+            <span>GANYMEDE</span>
+          </div>
+
+          <div class="infinty-body__callisto-block block-planets mini-planets">
+            <span>CALLISTO</span>
+          </div>
+
+          <div class="infinty-body__satu-block block-planets" data-planet="satu">
+              <div class="satu-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="satu-block__name">SATURN</h1>
+          </div>
+
+          <div class="infinty-body__titan-block block-planets mini-planets">
+            <span>TITAN</span>
+          </div>
+
+          <div class="infinty-body__uran-block block-planets" data-planet="uran">
+              <div class="uran-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="uran-block__name">URANUS</h1>
+          </div>
+
+          <div class="infinty-body__nept-block block-planets" data-planet="nept">
+              <div class="nept-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="nept-block__name">NEPTUNE</h1>
+          </div>
+
+          <div class="infinty-body__plut-block block-planets" data-planet="plut">
+              <div class="plut-img planets-img">
+                  <img src="https://joshworth.com/dev/pixelspace/img/arrow.svg" alt="">
+              </div>
+              <h1 class="plut-block__name">PLUTO</h1>
+          </div>
+
+          <div class="infinty-section-padding">
+            <h1>victory</h1>
+          </div>
+      </div>
+  </div>
+    
+    <script src="./js/firstBlock.js"></script>
+    <script src="./js/threeBlock.js"></script>
+  </body>
 </html>
